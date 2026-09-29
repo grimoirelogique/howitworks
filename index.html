@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home — How It Works</title><link rel="icon" href="./favicon.png"><style>
+:root{--bg:#0A1628;--bg2:#060D18;--card:#0F2036;--ink:#F4F7FB;--muted:#9FB2CC;--amber:#FFC43D;--line:#1D3350}
+*{box-sizing:border-box}html{background:var(--bg2)}
+body{margin:0;font:17px/1.65 -apple-system,BlinkMacSystemFont,"Avenir Next","Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);
+background:radial-gradient(1200px 600px at 50% -10%,#14304f 0%,var(--bg) 45%,var(--bg2) 100%) fixed}
+.wrap{max-width:760px;margin:0 auto;padding:32px 20px 64px}
+header{display:flex;align-items:center;gap:14px;margin-bottom:28px}
+header img{width:52px;height:52px;border-radius:50%}
+header a.brand{color:var(--ink);text-decoration:none;font-weight:800;letter-spacing:.06em;font-size:20px}
+nav{margin-left:auto;display:flex;gap:18px;flex-wrap:wrap}
+nav a{color:var(--muted);text-decoration:none;font-size:15px}nav a:hover,nav a[aria-current]{color:var(--amber)}
+h1{font-size:34px;line-height:1.2;margin:8px 0 6px}h2{font-size:21px;margin:30px 0 6px;color:var(--amber)}
+.tag{color:var(--muted);margin:0 0 22px}.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:18px 0}
+a{color:var(--amber)}code{background:#0b1a2d;border:1px solid var(--line);border-radius:6px;padding:1px 6px;font-size:.92em}
+footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+.hero{display:flex;gap:22px;align-items:center;margin:10px 0 8px}.hero img{width:120px;height:120px;border-radius:50%;flex:none}
+@media(max-width:560px){.hero{flex-direction:column;align-items:flex-start}nav{margin-left:0}header{flex-wrap:wrap}}
+</style></head>
+<body><div class="wrap">
+<header><img src="./logo.png" alt="How It Works logo"><a class="brand" href="./">HOW IT WORKS</a><nav><a href="./index.html" aria-current=page>Home</a><a href="./privacy.html">Privacy policy</a><a href="./terms.html">Terms of service</a></nav></header>
+<main>
+<div class="hero"><img src="./logo.png" alt=""><div>
+<h1>How It Works</h1><p class="tag">Everyday things, cut open &amp; explained.</p></div></div>
+<p><strong>How It Works</strong> is a channel of short animated videos (YouTube Shorts, Instagram Reels, TikTok) that explain how
+everyday objects work: locks, zippers, headphones, microwaves, GPS, watches, touchscreens… Every episode is drawn in its own
+art style and its facts are checked before publication.</p>
+<div class="card">
+<h2 style="margin-top:0">The How It Works publishing application</h2>
+<p>The “How It Works” application is a <strong>personal publishing tool</strong>. It runs only on its author's own computer and is
+used by its author alone, to upload the channel's own videos to the channel's own accounts and to schedule their publication.
+It has no public sign-up, no other users and no server.</p>
+<p>For YouTube, it requests a single Google permission, <code>youtube.upload</code>, used only to upload the channel's own videos
+to its own YouTube channel with a scheduled publication time.</p>
+</div>
+<p>Read our <a href="./privacy.html">privacy policy</a> and our <a href="./terms.html">terms of service</a>.</p>
+</main>
+<footer>How It Works — everyday things, cut open &amp; explained. · <a href="./privacy.html">Privacy policy</a> · <a href="./terms.html">Terms of service</a></footer>
+</div></body></html>
